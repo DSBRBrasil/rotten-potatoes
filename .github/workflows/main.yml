@@ -36,5 +36,5 @@ jobs:
           push: true
           tasg: |
              dsbrbrasil/rotten-potatoes:latest
-             dsbrbrasil/rotten-potatoes:{{github.run_number}}
+             dsbrbrasil/rotten-potatoes:${{github.run_number}}
         

@@ -35,4 +35,4 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: dsbrbrasil/rotten-potatoes::latest
+          tags: dsbrbrasil/rotten-potatoes:latest
